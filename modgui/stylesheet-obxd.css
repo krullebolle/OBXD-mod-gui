@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "nulshock";
-  src: url(/resources/fonts/nulshock.ttf);
+  font-family: "Roboto";
+  src: url(/resources/fonts/RobotoCondensed.ttf);
   /* font-weight: bold; */
   /* font-style: normal; */
 }
@@ -114,7 +114,7 @@
 }
 
 .obxd-title h1 {
-  font-family: "nulshock", sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-size: 18px;
   text-transform: uppercase;
   margin: 5px auto;
@@ -128,7 +128,7 @@
 }
 
 .obxd{{{cns}}} .mod-knob-title {
-  font-family: "nulshock", sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-size: 11px;
   padding: 8px 0px 0px 0px;
   color: rgb(215, 215, 200);
