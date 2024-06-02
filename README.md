@@ -2,12 +2,10 @@
 
 OBXD interface for the MOD platform
 
-![image](https://user-images.githubusercontent.com/1137715/177415543-ad40fa19-507e-4395-846d-86fd25b28a6c.png)
+![Schermafdruk_20240602_140129](https://github.com/krullebolle/OBXD-mod-gui/assets/70220452/e7c4c88d-4cc6-42a3-845c-4684addb3475)
+
 
 
 
 TODO:
-  - [ ] branding
-  - [ ] fonts
-  - [ ] shadows and gradients
-  - [ ] finetuning knob positions
+- rewrite css to grid style
