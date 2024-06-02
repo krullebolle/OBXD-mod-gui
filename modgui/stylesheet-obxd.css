@@ -29,7 +29,7 @@
   color: white;
   width: 1250px;
   height: 600px;
-  padding: 20px 15px;
+  padding: 20px 0px;
   /* background-color: #ffffff; */
   /* Two of the same svg in a list */
   background-image: url("/resources/knobs/wood-handle.svg{{{ns}}}"), url("/resources/knobs/wood-handle.svg{{{ns}}}");
@@ -40,6 +40,7 @@
 }
 
 .obxd{{{cns}}} .mod-control-group {
+  margin: 0 15px;
   position: relative;
   align-content: center;
   text-align: center;
@@ -134,7 +135,7 @@
   color: rgb(215, 215, 200);
 }
 
-/* waarom staat dat hier? weglaten? */
+/* waarom staat dat hier? weglaten?
 .obxd{{{cns}}} .mod-audio-output
 {
   left: 0px;
