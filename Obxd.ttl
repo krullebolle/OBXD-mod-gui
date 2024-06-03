@@ -144,9 +144,11 @@
         lv2:index 12 ;
         lv2:symbol "legatomode" ;
         lv2:name "LegatoMode" ;
-        lv2:default 0.000000 ;
-        lv2:minimum 0.0 ;
-        lv2:maximum 1.0 ;
+        lv2:default 0;
+        lv2:minimum 0;
+        lv2:maximum 1;
+        lv2:portProperty lv2:integer;
+        lv2:portProperty lv2:toggled;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -189,9 +191,11 @@
         lv2:index 17 ;
         lv2:symbol "portamento" ;
         lv2:name "Portamento" ;
-        lv2:default 0.000000 ;
-        lv2:minimum 0.0 ;
-        lv2:maximum 1.0 ;
+        lv2:default 0;
+        lv2:minimum 0;
+        lv2:maximum 1;
+        lv2:portProperty lv2:integer;
+        lv2:portProperty lv2:toggled;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -380,9 +384,11 @@
         lv2:index 36 ;
         lv2:symbol "pitchquant" ;
         lv2:name "PitchQuant" ;
-        lv2:default 0.000000 ;
-        lv2:minimum 0.0 ;
-        lv2:maximum 1.0 ;
+        lv2:default 0;
+        lv2:minimum 0;
+        lv2:maximum 1;
+        lv2:portProperty lv2:integer;
+        lv2:portProperty lv2:toggled;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -524,6 +530,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 51 ;
         lv2:symbol "filter_warm" ;
+        lv2:name "Filter_warm" ;
         lv2:default 0;
         lv2:minimum 0;
         lv2:maximum 1;
