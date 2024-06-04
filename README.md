@@ -2,10 +2,7 @@
 
 OBXD interface for the MOD platform
 
-![Schermafdruk_20240602_140129](https://github.com/krullebolle/OBXD-mod-gui/assets/70220452/e7c4c88d-4cc6-42a3-845c-4684addb3475)
-
-
-
+![screenshot-obxd](https://github.com/krullebolle/OBXD-mod-gui/assets/70220452/bf93274a-ad32-4157-aaf4-fd7804f8b2a4)
 
 TODO:
-- rewrite css to grid style
+more presets
