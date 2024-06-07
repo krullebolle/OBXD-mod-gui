@@ -216,9 +216,17 @@
   align-content: center;
 }
 
+.controls-5.second {
+  background-color: #505050 no-repeat center;
+}
+
 .controls-5-align {
   display: grid;
   grid-template-columns: 4fr 2fr 4fr;
+}
+
+.controls-5.third {
+  background-color: #505050 no-repeat center;
 }
 
 .controls-2-align {
