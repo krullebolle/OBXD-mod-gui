@@ -589,7 +589,7 @@
         lv2:maximum 1;
         lv2:portProperty lv2:integer;
         lv2:portProperty lv2:toggled;
-        rdfs:comment "The HQ button on the filter turns on "High Quality" mode which results in better interpolation and smoother processing of higher frequency components at the expense of CPU consumption." ;
+        rdfs:comment "The HQ button on the filter turns on High Quality mode which results in better interpolation and smoother processing of higher frequency components at the expense of CPU consumption." ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -601,7 +601,7 @@
         lv2:maximum 1;
         lv2:portProperty lv2:integer;
         lv2:portProperty lv2:toggled;
-        rdfs:comment "The BP switch has no effect in 24dB mode. It turns on and off to give you something to play with on the GUI which doesn't affect the sound in any way. ;)" ;
+        rdfs:comment "The BP switch has no effect in 24dB mode. It turns on and off to give you something to play with on the GUI which doesn't affect the sound in any way. " ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -623,7 +623,7 @@
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        rdfs:comment "The amount of opening/closing of the filter (ADSR filter envelope)" ;
+        rdfs:comment "The amount of opening/closing of the filter (ADSR filter envelope) " ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -715,7 +715,7 @@
         lv2:default 0.300000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        rdfs:comment "Altering the filter envelope depth with velocity can also cause pitch variations when the Filter envelope is assigned to modulate Oscillator 2's pitch (P ENV)." ;
+        rdfs:comment "Altering the filter envelope depth with velocity can also cause pitch variations when the Filter envelope is assigned to modulate Oscillator 2's pitch (P ENV). " ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
