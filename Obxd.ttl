@@ -118,7 +118,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 9 ;
         lv2:symbol "octave" ;
-        lv2:name "Coarse Octave tune" ;
+        lv2:name "Coarse tune" ;
         lv2:default 0.5 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -183,7 +183,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 14 ;
         lv2:symbol "vfltfactor" ;
-        lv2:name "Filter env Velocity" ;
+        lv2:name "Filter env Vel" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -203,23 +203,23 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 16 ;
         lv2:symbol "asplayedallocation" ;
-        lv2:name "Voice allocation mode" ;
+        lv2:name "VAM" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
         lv2:portProperty lv2:integer;
         lv2:portProperty lv2:toggled;
-        rdfs:comment "switches the priority of voice allocation from the default low-note priority to last-note priority." ;
+        rdfs:comment "Voice allocation mode. Switches the priority of voice allocation from the default low-note priority to last-note priority." ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 17 ;
         lv2:symbol "portamento" ;
-        lv2:name "Portamento / glide" ;
+        lv2:name "glide" ;
         lv2:default 0;
         lv2:minimum 0.0;
         lv2:maximum 1.0;
-        rdfs:comment "Adjusts the portamento effect, creating a smooth pitch transition from one note to another." ;
+        rdfs:comment "Adjusts the portamento (glide) effect, creating a smooth pitch transition from one note to another." ;
 
     ] ,
     [
@@ -247,7 +247,7 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 20 ;
-        lv2:symbol "oscillator2detune" ;
+        lv2:symbol "osc2 detune" ;
         lv2:name "Oscillator2detune" ;
         lv2:default 0.400000 ;
         lv2:minimum 0.0 ;
@@ -268,7 +268,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 22 ;
         lv2:symbol "lfosinewave" ;
-        lv2:name "LfoSineWave" ;
+        lv2:name "Lfo SineWave" ;
         lv2:default 0;
         lv2:minimum 0;
         lv2:maximum 1;
@@ -280,7 +280,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 23 ;
         lv2:symbol "lfosquarewave" ;
-        lv2:name "LfoSquareWave" ;
+        lv2:name "Lfo SquareWave" ;
         lv2:default 0;
         lv2:minimum 0;
         lv2:maximum 1;
@@ -298,7 +298,7 @@
         lv2:maximum 1;
         lv2:portProperty lv2:integer;
         lv2:portProperty lv2:toggled;
-        rdfs:comment "LFO Sample & Hold switch" ;
+        rdfs:comment "LFO wave Sample & Hold switch" ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -318,13 +318,13 @@
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        rdfs:comment "knob for pulse width modulation depth" ;
+        rdfs:comment "knob for pulse width modulation depth for the lfo" ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 27 ;
         lv2:symbol "lfoosc1" ;
-        lv2:name "LfoOsc1" ;
+        lv2:name "Lfo Osc1" ;
         lv2:default 0;
         lv2:minimum 0;
         lv2:maximum 1;
@@ -336,7 +336,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 28 ;
         lv2:symbol "lfoosc2" ;
-        lv2:name "LfoOsc2" ;
+        lv2:name "Lfo Osc2" ;
         lv2:default 0;
         lv2:minimum 0;
         lv2:maximum 1;
@@ -348,7 +348,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 29 ;
         lv2:symbol "lfofilter" ;
-        lv2:name "LfoFilter" ;
+        lv2:name "Lfo Filter" ;
         lv2:default 0;
         lv2:minimum 0;
         lv2:maximum 1;
@@ -360,7 +360,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 30 ;
         lv2:symbol "lfopw1" ;
-        lv2:name "LfoPw1" ;
+        lv2:name "Lfo Pw1" ;
         lv2:default 0;
         lv2:minimum 0;
         lv2:maximum 1;
@@ -372,7 +372,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 31 ;
         lv2:symbol "lfopw2" ;
-        lv2:name "LfoPw2" ;
+        lv2:name "Lfo Pw2" ;
         lv2:default 0;
         lv2:minimum 0;
         lv2:maximum 1;
@@ -436,7 +436,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 37 ;
         lv2:symbol "osc1saw" ;
-        lv2:name "Osc1Saw" ;
+        lv2:name "Osc1 Saw" ;
         lv2:default 1;
         lv2:minimum 0;
         lv2:maximum 1;
@@ -448,7 +448,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 38 ;
         lv2:symbol "osc1pulse" ;
-        lv2:name "Osc1Pulse" ;
+        lv2:name "Osc1 Pulse" ;
         lv2:default 0;
         lv2:minimum 0;
         lv2:maximum 1;
@@ -460,7 +460,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 39 ;
         lv2:symbol "osc2saw" ;
-        lv2:name "Osc2Saw" ;
+        lv2:name "Osc2 Saw" ;
         lv2:default 1;
         lv2:minimum 0;
         lv2:maximum 1;
@@ -472,7 +472,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 40 ;
         lv2:symbol "osc2pulse" ;
-        lv2:name "Osc2Pulse" ;
+        lv2:name "Osc2 Pulse" ;
         lv2:default 0;
         lv2:minimum 0;
         lv2:maximum 1;
@@ -488,7 +488,7 @@
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        rdfs:comment "Adjusts the pulse width of the selected pulse wave OSC" ;
+        rdfs:comment "Adjusts the pulse width of the selected pulse wave oscillators (OSC1 and or OSC2)" ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -504,7 +504,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 43 ;
         lv2:symbol "envelopetopitch" ;
-        lv2:name "Envelope To Pitch" ;
+        lv2:name "Env To Pitch" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -541,7 +541,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 47 ;
         lv2:symbol "filterkeyfollow" ;
-        lv2:name "Filter Key Follow" ;
+        lv2:name "Fltr Key Follow" ;
         lv2:default 0;
         lv2:minimum 0;
         lv2:maximum 1;
@@ -619,7 +619,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 54 ;
         lv2:symbol "filterenvamount" ;
-        lv2:name "Filter Env Amount" ;
+        lv2:name "Fltr Env Amount" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -629,7 +629,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 55 ;
         lv2:symbol "attack" ;
-        lv2:name "Attack" ;
+        lv2:name "Amp Attack" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -638,7 +638,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 56 ;
         lv2:symbol "decay" ;
-        lv2:name "Decay" ;
+        lv2:name "Amp Decay" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -647,7 +647,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 57 ;
         lv2:symbol "sustain" ;
-        lv2:name "Sustain" ;
+        lv2:name "Amp Sustain" ;
         lv2:default 1.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -656,7 +656,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 58 ;
         lv2:symbol "release" ;
-        lv2:name "Release" ;
+        lv2:name "Amp Release" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -701,7 +701,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 63 ;
         lv2:symbol "envelopedetune" ;
-        lv2:name "Amp Envelope Depth" ;
+        lv2:name "Amp Envel Depth" ;
         lv2:default 0.300000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -711,7 +711,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 64 ;
         lv2:symbol "filterdetune" ;
-        lv2:name "Fltr Envelope Depth" ;
+        lv2:name "Fltr Envel Depth" ;
         lv2:default 0.300000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -721,7 +721,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 65 ;
         lv2:symbol "portamentodetune" ;
-        lv2:name "Portamento / glide" ;
+        lv2:name "glide detune" ;
         lv2:default 0.300000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
