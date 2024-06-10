@@ -114,6 +114,51 @@
   background-image: url(/resources/knobs/button_flat_dark_off.svg{{{ns}}});
 }
 
+.obxd{{{cns}}} .mod-control-group .mod-buttongr {
+  /* padding: 16px 8px 0px 8px; */
+  background: none;
+  margin: 0;
+  background-repeat: no-repeat;
+  align-content: center;
+  text-transform: uppercase;
+  filter: var(--shadow-default);
+  font-size: var(--btn-text-size);
+}
+
+.obxd{{{cns}}} .mod-control-group .mod-buttongr-image {
+  /* padding: 8px; */
+  background-image: url(/resources/knobs/button_flat_green_on.svg{{{ns}}});
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40px;
+  width: 40px;
+  margin: 0 auto;
+}
+
+.obxd{{{cns}}} .mod-control-group .mod.mod-buttongr-small .mod-buttongr-image {
+  background-image: url(/resources/knobs/button_flat_green_on.svg{{{ns}}});
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.obxd{{{cns}}} .mod-control-group .mod-buttongr-small .mod-buttongr-image {
+  /* padding: 8px; */
+  background-image: url(/resources/knobs/button_flat_green_on.svg{{{ns}}});
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  height: 40px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.obxd{{{cns}}} .mod-control-group .mod-buttongr-image.off {
+  background-image: url(/resources/knobs/button_flat_green_off.svg{{{ns}}});
+}
+
 .obxd-title h1 {
   font-family: "Roboto", sans-serif !important;
   font-size: 18px;
@@ -142,12 +187,7 @@
   color: rgb(215, 215, 200);
 }
 
-/* waarom staat dat hier? weglaten?
-.obxd{{{cns}}} .mod-audio-output
-{
-  left: 0px;
 
-}
 
 /* GRID */
 .obxd-container {
@@ -323,12 +363,12 @@ grid-area: grip;
 .mixer {
   display: grid;
   gap: var(--gap-15);
-  grid-template-columns: min-content;
-  /* align-items: start; */
+  grid-template-columns: max-content;
+  /*align-items: start;*/
   align-self: start;
   grid-template-areas: "header";
   grid-area: mixer;
-  padding: var(--padding-sections);
+  padding: 0 35px;
 }
 
 .control {
