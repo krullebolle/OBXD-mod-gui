@@ -2,7 +2,8 @@
 
 OBXD interface for the MOD platform
 
-![screenshot-obxd](https://github.com/krullebolle/OBXD-mod-gui/assets/70220452/bf93274a-ad32-4157-aaf4-fd7804f8b2a4)
+![screenshot-obxd](https://github.com/krullebolle/OBXD-mod-gui/assets/70220452/2346204b-f32e-4b78-8702-a8e651f59b00)
+
 
 Preset Banks added:
 They are the one after the other from [A-Z]
