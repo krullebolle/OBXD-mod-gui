@@ -55,6 +55,21 @@
   font-size: var(--btn-text-size);
 }
 
+.obxd{{{cns}}} .mod-control-group .mod-knob-dot {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: top;
+  align-content: center;
+  width: 4px;
+  height: 4px;
+  background-color: rgb(215, 215, 200);
+  border-radius: 2px;
+  padding: 1px;
+  text-transform: uppercase;
+  filter: var(--shadow-default);
+  font-size: var(--btn-text-size);
+}
+
 .obxd{{{cns}}} .mod-control-group .mod-knob-image {
   /* padding: 8px; */
   /* background-image: url(/resources/knobs/knob_flat_sprite.png{{{ns}}}); */
@@ -68,6 +83,10 @@
   width: 40px;
   margin: 0 auto;
 }
+
+
+
+
 
 .obxd{{{cns}}} .mod-control-group .mod-button {
   /* padding: 16px 8px 0px 8px; */
@@ -357,7 +376,7 @@ grid-area: grip;
   grid-template-areas: "header";
   grid-area: osc;
   border-right: #515253 solid 1px;
-  padding: var(--padding-sections);
+  padding: 0 25px 0 10px;
 }
 
 .mixer {
@@ -368,7 +387,7 @@ grid-area: grip;
   align-self: start;
   grid-template-areas: "header";
   grid-area: mixer;
-  padding: 0 35px;
+  padding: 0 25px;
 }
 
 .control {
